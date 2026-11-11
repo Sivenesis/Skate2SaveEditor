@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOUCHGRIND SKATE 2 // SAVE EDITOR</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="deck-wrapper">
+    <!-- Brushed Aluminum Header Marquee -->
+    <header class="marquee-bezel">
+      <div class="marquee-inner">
+        <div class="brand-group">
+          <div class="screw-head screw-tl"></div>
+          <div class="screw-head screw-tr"></div>
+          <h1>TOUCHGRIND SKATE 2 // SAVE EDITOR</h1>
+          <div class="screw-head screw-bl"></div>
+          <div class="screw-head screw-br"></div>
+        </div>
+        <div class="system-status-cluster">
+          <span class="led led-green" id="status-led"></span>
+          <span class="status-label" id="status-text">SYSTEM READY</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Workspace Container -->
+    <main class="console-body">
+      <!-- Session Bar & Quick File Actions -->
+      <section class="panel session-toolbar">
+        <div class="toolbar-well">
+          <div class="action-group">
+            <button type="button" id="btn-load-sample" class="btn btn-silver">
+              <span class="btn-text">Load Sample Save</span>
+            </button>
+            <label for="file-input" class="btn btn-silver file-label">
+              <span class="btn-text">Choose Save / ZIP</span>
+              <input type="file" id="file-input" accept=".zip,.db,.plist,.replay,image/*" multiple>
+            </label>
+          </div>
+          <div class="session-badge" id="session-info">
+            <span class="badge-title">SESSION:</span>
+            <span class="badge-value" id="current-session-id">NO SAVE LOADED</span>
+          </div>
+          <div class="action-group-right">
+            <button type="button" id="btn-recalc-hmac" class="btn btn-metal" disabled>
+              <span class="btn-text">Sync & Recalc HMAC</span>
+            </button>
+            <button type="button" id="btn-export" class="btn btn-gold" disabled>
+              <span class="btn-text">Export Modified Save (.ZIP)</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Drag & Drop Zone -->
+      <section class="panel dropzone-panel">
+        <div id="dropzone" class="dropzone">
+          <div class="dropzone-border">
+            <div class="dropzone-icon">&#8681;</div>
+            <div class="dropzone-title">DROP SAVE FILES HERE</div>
+            <div class="dropzone-subtitle">Drop complete save .zip archive, or loose registry.db / cloudregistry.db / replays / textures</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Category Navigation Tabs -->
+      <nav class="nav-tabs">
+        <button type="button" class="tab-btn active" data-tab="tab-parks">Parks &amp; DLC</button>
+        <button type="button" class="tab-btn" data-tab="tab-challenges">Challenges</button>
+        <button type="button" class="tab-btn" data-tab="tab-highscores">High Scores</button>
+        <button type="button" class="tab-btn" data-tab="tab-equipment">Equipment &amp; Stats</button>
+        <button type="button" class="tab-btn" data-tab="tab-textures">Board Textures</button>
+        <button type="button" class="tab-btn" data-tab="tab-replays">Replay Vault</button>
+        <button type="button" class="tab-btn" data-tab="tab-cloud">CloudKit &amp; Special</button>
+        <button type="button" class="tab-btn" data-tab="tab-raw">Raw DB Explorer</button>
+      </nav>
+
+      <!-- Tab 1: Parks & DLC -->
+      <section id="tab-parks" class="tab-content active">
+        <div class="panel">
+          <div class="panel-header">
+            <h2>DLC Skatepark Unlocks</h2>
+            <button type="button" id="btn-unlock-all-parks" class="btn btn-silver btn-small">Unlock All Parks</button>
+          </div>
+          <div class="grid-parks" id="parks-container">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 2: Challenges -->
+      <section id="tab-challenges" class="tab-content">
+        <div class="panel">
+          <div class="panel-header">
+            <div>
+              <h2>Skatepark Challenges</h2>
+              <span class="subtext" id="challenges-progress-label">Select a park to view objective details and requirements</span>
+            </div>
+            <div class="filter-group">
+              <label for="select-challenge-park">Park:</label>
+              <select id="select-challenge-park" class="metal-select">
+                <option value="backyard">Backyard (25 Challenges)</option>
+                <option value="dairyfactory">Dairy Factory (45 Challenges)</option>
+                <option value="downhill">Downhill (45 Challenges)</option>
+                <option value="funpark">Funpark (45 Challenges)</option>
+                <option value="office">Office (45 Challenges)</option>
+                <option value="research">Research (45 Challenges)</option>
+                <option value="spacedock">Space Dock (45 Challenges)</option>
+                <option value="thecarpark">The Car Park (45 Challenges)</option>
+                <option value="thedocks">The Docks (45 Challenges)</option>
+              </select>
+              <input type="text" id="challenge-search-input" class="metal-input" placeholder="Filter by trick, title, or objective..." style="min-width: 220px;">
+              <button type="button" id="btn-complete-park-challenges" class="btn btn-silver btn-small">Unlock All</button>
+              <button type="button" id="btn-reset-park-challenges" class="btn btn-silver btn-small">Lock All</button>
+            </div>
+          </div>
+          <div class="challenges-grid" id="challenges-container">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 3: High Scores -->
+      <section id="tab-highscores" class="tab-content">
+        <div class="panel">
+          <div class="panel-header">
+            <h2>High Score Records</h2>
+            <span class="subtext">Edit Competition (100s) and Jam Session Line scores</span>
+          </div>
+          <div class="table-responsive">
+            <table class="skeuo-table">
+              <thead>
+                <tr>
+                  <th>Park ID</th>
+                  <th>Location</th>
+                  <th>Competition High Score</th>
+                  <th>Jam Line High Score</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="scores-table-body">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 4: Equipment & Stats -->
+      <section id="tab-equipment" class="tab-content">
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Equipped Setup &amp; Deck Telemetry</h2>
+          </div>
+          <div class="equipment-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="eq-board-idx">Current Board Index (0 or 2..31):</label>
+                <input type="number" id="eq-board-idx" class="metal-input" min="0" max="31">
+              </div>
+              <div class="form-group">
+                <label for="eq-deck-idx">Deck Index:</label>
+                <input type="number" id="eq-deck-idx" class="metal-input" min="0">
+              </div>
+              <div class="form-group">
+                <label for="eq-grip-idx">Grip Tape Index:</label>
+                <input type="number" id="eq-grip-idx" class="metal-input" min="0">
+              </div>
+              <div class="form-group">
+                <label for="eq-wheel-idx">Wheel Index:</label>
+                <input type="number" id="eq-wheel-idx" class="metal-input" min="0">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="eq-wear-time">Deck Wear Time (seconds):</label>
+                <input type="number" id="eq-wear-time" class="metal-input" step="0.1" min="0">
+              </div>
+              <div class="form-group btn-align">
+                <button type="button" id="btn-save-equipment" class="btn btn-silver">Save Equipment Setup</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 5: Board Textures -->
+      <section id="tab-textures" class="tab-content">
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Custom Board Graphics &amp; Textures</h2>
+            <span class="subtext">Deck PNGs must be 1024x256; Board JPEGs must be 1024x1024</span>
+          </div>
+          <div class="textures-gallery" id="textures-container">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 6: Replay Vault -->
+      <section id="tab-replays" class="tab-content">
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Saved Runs &amp; Replay Vault</h2>
+            <div class="filter-group">
+              <label for="clipcounter-park-select">Park Clipcounter:</label>
+              <select id="clipcounter-park-select" class="metal-select">
+                <option value="backyard">Backyard</option>
+                <option value="dairyfactory">Dairy Factory</option>
+                <option value="downhill">Downhill</option>
+                <option value="funpark">Funpark</option>
+                <option value="office">Office</option>
+                <option value="research">Research</option>
+                <option value="spacedock">Space Dock</option>
+                <option value="thecarpark">The Car Park</option>
+                <option value="thedocks">The Docks</option>
+              </select>
+              <input type="number" id="clipcounter-input" class="metal-input" style="width: 80px;" min="0">
+              <button type="button" id="btn-update-clipcounter" class="btn btn-silver btn-small">Update Counter</button>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="skeuo-table">
+              <thead>
+                <tr>
+                  <th>Park</th>
+                  <th>Category</th>
+                  <th>Filename</th>
+                  <th>Run Type</th>
+                  <th>Score</th>
+                  <th>Duration</th>
+                  <th>Timestamp</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="replays-table-body">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 7: CloudKit & Special Boards -->
+      <section id="tab-cloud" class="tab-content">
+        <div class="panel">
+          <div class="panel-header">
+            <h2>iCloud Storage &amp; Special Boards Unlocks</h2>
+          </div>
+          <div class="cloud-form">
+            <div class="form-row">
+              <div class="form-group flex-2">
+                <label for="cloud-user-id">CloudStorage_UserID:</label>
+                <input type="text" id="cloud-user-id" class="metal-input">
+              </div>
+              <div class="form-group flex-2">
+                <label for="cloud-uuid">Device UUID:</label>
+                <input type="text" id="cloud-uuid" class="metal-input">
+              </div>
+              <div class="form-group btn-align">
+                <button type="button" id="btn-save-cloud-user" class="btn btn-silver">Update Identifiers</button>
+              </div>
+            </div>
+            <div class="hmac-status-box">
+              <div class="hmac-info">
+                <strong>HMAC-SHA256 Status:</strong>
+                <span id="hmac-status-badge" class="badge">Checking...</span>
+                <code id="hmac-digest-display">----------------------------------------------------------------</code>
+              </div>
+            </div>
+            <hr class="skeuo-divider">
+            <div class="panel-header">
+              <h3>Special Boards Unlocks (IDs 2..31)</h3>
+              <div class="action-group">
+                <button type="button" id="btn-select-all-boards" class="btn btn-silver btn-small">Unlock All Special Boards</button>
+                <button type="button" id="btn-clear-all-boards" class="btn btn-silver btn-small">Clear All</button>
+              </div>
+            </div>
+            <div class="special-boards-grid" id="special-boards-container">
+              <!-- Rendered dynamically -->
+            </div>
+            <div class="form-actions" style="margin-top: 1rem;">
+              <button type="button" id="btn-save-special-boards" class="btn btn-metal">Save Special Boards &amp; Sign</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 8: Raw DB Explorer -->
+      <section id="tab-raw" class="tab-content">
+        <div class="panel">
+          <div class="panel-header">
+            <h2>Raw SQLite Registry Explorer</h2>
+            <div class="filter-group">
+              <label for="raw-table-select">Table:</label>
+              <select id="raw-table-select" class="metal-select">
+                <option value="integerdata">integerdata</option>
+                <option value="floatdata">floatdata</option>
+                <option value="stringdata">stringdata</option>
+                <option value="binarydata">binarydata</option>
+              </select>
+              <input type="text" id="raw-search-input" class="metal-input" placeholder="Search key...">
+              <button type="button" id="btn-raw-search" class="btn btn-silver btn-small">Search</button>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="skeuo-table">
+              <thead>
+                <tr>
+                  <th style="width: 50%;">Key</th>
+                  <th style="width: 35%;">Value</th>
+                  <th style="width: 15%;">Actions</th>
+                </tr>
+              </thead>
+              <tbody id="raw-table-body">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+          <div class="pagination-bar" id="raw-pagination">
+            <button type="button" id="btn-raw-prev" class="btn btn-silver btn-small">&laquo; Prev</button>
+            <span id="raw-page-info">Page 1</span>
+            <button type="button" id="btn-raw-next" class="btn btn-silver btn-small">Next &raquo;</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="console-footer">
+      <div class="footer-inner">
+        <span>TOUCHGRIND SKATE 2 // SAVE EDITOR</span>
+        <span>STANDALONE ZERO-DEPENDENCY EDITION</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

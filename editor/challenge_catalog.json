@@ -1,0 +1,4168 @@
+{
+  "backyard": [
+    {
+      "id": 1,
+      "title": "Kickflip",
+      "description": "Do a kickflip",
+      "info": "Kickflip",
+      "duration": "combo",
+      "requirements": [
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Any grind",
+      "description": "Do any grind trick",
+      "info": "Grind",
+      "duration": "combo",
+      "requirements": [
+        "trick: grind"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Flip in bowl",
+      "description": "Do any flip trick in the bowl (Ex: a kickflip)",
+      "info": "Heelflip",
+      "duration": "game",
+      "requirements": [
+        "trick: flip"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Grind",
+      "description": "Do a grind for 2 seconds",
+      "info": "50-50_grind",
+      "duration": "rail",
+      "requirements": [
+        "rail_time: 2"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "10.000p jump",
+      "description": "Get 10.000 points in one jump",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "score_increase: 10000"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "2 heelflips",
+      "description": "Do 2 heelflips in 20 seconds",
+      "info": "Heelflip",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: heelflip"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Pop shuvit in grass",
+      "description": "Do a pop shuvit and land in the grass",
+      "info": "Pop_shuvit",
+      "duration": "jump",
+      "requirements": [
+        "trick: pop shuvit",
+        "location_object_land: grass"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Kickflip from grind",
+      "description": "Do a kickflip out from a grind",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: grind",
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Grind benches",
+      "description": "Grind the benches",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_rail_start: benches"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "2 pop shuvits",
+      "description": "Do 2 pop shuvits in one combo (Ex: pop shuvit -> rail -> pop shuvit)",
+      "info": "Combo",
+      "duration": "combo",
+      "requirements": [
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Fakie trick",
+      "description": "Do any trick in fakie",
+      "info": "Fakie",
+      "duration": "game",
+      "requirements": [
+        "trick: fakie"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "D.I.Y kickflip",
+      "description": "Do a double kickflip with your own photo on the D.I.Y board",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "board: deck_2",
+        "trick: double kickflip"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "3 pop shuvits",
+      "description": "Do 3 pop shuvits without crashing",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: pop shuvit",
+        "crash: 1"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "360 trick",
+      "description": "Do any 360 trick",
+      "info": "360_trick",
+      "duration": "game",
+      "requirements": [
+        "trick: 360"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "40.000p in x4",
+      "description": "Get 40.000 points in a line with no more than x4 multiplier (Tip: A line is until you lose your multiplier)",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 40000",
+        "multiplier: 6"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Late trick",
+      "description": "Do a late trick and get 4.000 points",
+      "info": "Late_trick",
+      "duration": "jump",
+      "requirements": [
+        "score_increase: 4000",
+        "trick: late"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Grind to heelflip",
+      "description": "Do a grind to heelflip",
+      "info": "5-0_grind_Heelflip",
+      "duration": "combo",
+      "requirements": [
+        "trick: grind",
+        "trick: heelflip"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "150.000p, no kickflips",
+      "description": "Get 150.000 points in a line without doing any kickflips",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 150000",
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Nollie in 4x",
+      "description": "Do a nollie trick when having 4x multiplier (Tip: Nollie is an ollie on the nose)",
+      "info": "Nollie",
+      "duration": "jump",
+      "requirements": [
+        "trick: nollie",
+        "multiplier: 4"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Pop shuvit to boardslide",
+      "description": "Do a pop shuvit and land in a boardslide",
+      "info": "Boardslide",
+      "duration": "combo",
+      "requirements": [
+        "trick: pop shuvit",
+        "trick: boardslide"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Darkslide bench with x6",
+      "description": "Do a darkslide on the bench with atleast x6 multiplier",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: darkslide",
+        "location_rail_start: benches"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "10 flips to x8 multiplier",
+      "description": "Do 10 flip tricks in a line and reach x8 multiplier",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: flip",
+        "multiplier: 8"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "100.000p combo x1 multiplier",
+      "description": "Get 100.000p in a combo starting at x1 multiplier",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase_multiplier: 100000",
+        "multiplier: 1"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Impossible, nollie and saladgrind line",
+      "description": "Make a line with atleast an impossible, nollie and a saladgrind",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: impossible",
+        "trick: nollie",
+        "trick: salad grind"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "1.500.000p line with 720 or 540 trick",
+      "description": "Make a 1.500.000p line with atleast one 720 or 540 trick",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 1500000"
+      ]
+    }
+  ],
+  "dairyfactory": [
+    {
+      "id": 1,
+      "title": "10s railtime",
+      "description": "Get 10 seconds total railtime in a line",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "rail_time: 9"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "20.000 jump",
+      "description": "Get 20.000 points in one jump inside the factory building",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "score_increase: 20000"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sail stall",
+      "description": "Do a stall in the small red bowl under the sun sail",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: stall"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Broken window kickflip",
+      "description": "Do a kickflip through the broken window",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "cross_line",
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Late from grind",
+      "description": "Do a late trick out from a grind into the triple bowl",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: grind",
+        "trick: late",
+        "location_object_land: triplebowl"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "15.000p grind",
+      "description": "Get over 15.000 points in one grind",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: grind",
+        "score_increase: 15000"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Low score",
+      "description": "Get less than 1.000 for a trick",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase: 1",
+        "score_increase: 1000"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "3 stalls in 10s",
+      "description": "Do 3 stalls in 10 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: stall"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Underflip",
+      "description": "Do an underflip",
+      "info": "Underflip",
+      "duration": "jump",
+      "requirements": [
+        "trick: underflip"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "3m late kickflip",
+      "description": "Do exactly a 'late kickflip' in a 3 meter high jump (Tip: no frontside/backside)",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "y_distance: 6.5",
+        "trick_match: late kickflip"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Crooked grind",
+      "description": "Do a crooked grind for 3 seconds",
+      "info": "Crooked_grind",
+      "duration": "rail",
+      "requirements": [
+        "trick_start: crooked grind",
+        "rail_time: 2.8"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "300.000p line",
+      "description": "Get 300.000 points in a line",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 300000"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "10 railslides",
+      "description": "Do 10 railslides during a competition run without any powerslides",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "trick: slide",
+        "trick: powerslide",
+        "game_mode: competition"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Late heelflip",
+      "description": "Do a late heelflip in the small red bowl under the sun sail",
+      "info": "Late_heelflip",
+      "duration": "jump",
+      "requirements": [
+        "trick: late",
+        "trick: heelflip"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Noseslide",
+      "description": "Do a noseslide to pop shuvit in the triple bowl",
+      "info": "Noseslide",
+      "duration": "combo",
+      "requirements": [
+        "trick: noseslide",
+        "trick: pop shuvit",
+        "location_object_land: triplebowl"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Three 540s",
+      "description": "Do three 540 pop shuvits in 15 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: 540"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "grind to nollie 360 hardflip",
+      "description": "Do a grind to nollie 360 hardflip",
+      "info": "Nollie_360_hardflip",
+      "duration": "combo",
+      "requirements": [
+        "trick: grind",
+        "trick: nollie",
+        "trick: 360 hardflip"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Three fakies",
+      "description": "Do 3 fakie tricks in 10 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: fakie"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "25 pop shuvits",
+      "description": "Do at least 25 pop shuvits in a competition run and do not crash",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "trick: pop shuvit",
+        "crash: 1",
+        "game_mode: competition"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Nosepick",
+      "description": "Do a nosepick",
+      "info": "Nosepick",
+      "duration": "rail",
+      "requirements": [
+        "trick: nosepick"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "750.000p, 20 crashes",
+      "description": "Get 750.000 points in a competition run AND crash at least 20 times",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "score_increase_multiplier: 750000",
+        "crash: 20",
+        "game_mode: competition"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Nosegrind to nollie pop",
+      "description": "Do a nosegrind to nollie pop shuvit",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: nosegrind",
+        "trick: nollie",
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Bluntslide",
+      "description": "Do a bluntslide",
+      "info": "Bluntslide",
+      "duration": "rail",
+      "requirements": [
+        "trick_start: bluntslide",
+        "rail_time: 0.1"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Boardslide to 540 pop",
+      "description": "Do a boardslide and a 540 pop shuvit out",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: boardslide",
+        "trick: 540",
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Nollie hardflip",
+      "description": "Do a nollie hardflip",
+      "info": "Nollie_hardflip",
+      "duration": "game",
+      "requirements": [
+        "trick: nollie hardflip"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "15.000p fakie rail",
+      "description": "Get 15.000 points in a fakie rail",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "score_increase: 15000",
+        "trick_start: fakie"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "200.000p, no rails",
+      "description": "Get 200.000 points in a line without using any rails",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 200000"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Axle to heelflip",
+      "description": "Do an axle stall to heelflip in the blue drop shaped bowl",
+      "info": "Axle_stall",
+      "duration": "combo",
+      "requirements": [
+        "trick: axle stall",
+        "trick: heelflip"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Triple kickflip",
+      "description": "Do a triple kickflip",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: triple",
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Big bowl darkslide",
+      "description": "Do a darkslide in the big red bowl and get at least 50.000 points",
+      "info": "Darkslide",
+      "duration": "rail",
+      "requirements": [
+        "trick: darkslide",
+        "score_increase: 50000"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Powerslide onto rail",
+      "description": "Powerslide onto a rail and get at least 15.000 points",
+      "info": "Powerslide",
+      "duration": "combo",
+      "requirements": [
+        "trick: powerslide",
+        "score_increase: 15000"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Broken window impossible",
+      "description": "Do an impossible through the broken window",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "cross_line",
+        "trick: impossible"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "720 trick",
+      "description": "Do a 720 trick",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 720"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "3 pop shuvits",
+      "description": "Do 3 pop shuvits in one combo",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "50-50 grind to 5-0 grind",
+      "description": "Do a 50-50 grind to a 5-0 grind on the same rail",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: 50-50 grind",
+        "trick: 5-0 grind"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Three inward flips",
+      "description": "Do 3 inward flips in 10 seconds",
+      "info": "Inward_flip",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: inward"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Switch 360 flip",
+      "description": "Do a switch 360 flip",
+      "info": "Switch_360_flip",
+      "duration": "jump",
+      "requirements": [
+        "trick: switch",
+        "trick: 360",
+        "trick: flip"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "6s rail",
+      "description": "Rail for 6 seconds",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "rail_time: 5.5"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "25 kickflips",
+      "description": "Do at least 25 kickflips in a competition run and do not crash",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "trick: kickflip",
+        "crash: 1",
+        "game_mode: competition"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Laserflip in 8x",
+      "description": "Do a laser flip when having an x8 multiplier",
+      "info": "Laser_flip",
+      "duration": "jump",
+      "requirements": [
+        "multiplier: 8",
+        "trick: laser flip"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Kickflip darkslide",
+      "description": "Kickflip in to or out from a darkslide",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: darkslide",
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "140.000p combo x1 multiplier",
+      "description": "Get 140.000p in a combo including an impossible starting at x1 multiplier",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase_multiplier: 140000",
+        "trick: impossible",
+        "multiplier: 1"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "360, 540, 720 line",
+      "description": "Make a 360, 540 and a 720 trick in a line",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: 360",
+        "trick: 540",
+        "trick: 720"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Grind, flip and fakie line",
+      "description": "Make a line with atleast a grind, flip and a fakie",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: grind",
+        "trick: flip",
+        "trick: fakie"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Five stalls under 25s",
+      "description": "Stall five times under 25s",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: stall"
+      ]
+    }
+  ],
+  "downhill": [
+    {
+      "id": 1,
+      "title": "Late trick on platform",
+      "description": "Do a late trick on the circular star platform",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late",
+        "location_object_land: floating_platorm"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pop shuvit",
+      "description": "Do a 720 pop shuvit on the blue ramp with yellow stripes",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 720 pop shuvit",
+        "location_object_land: blue_yellow_ramp"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Slide on bowl",
+      "description": "Perform any slide trick by the bowl with a blue dot",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: slide"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "2 impossibles in 10s",
+      "description": "Do two impossible tricks in 10 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: impossible"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Nose grind and pop shuvit combo",
+      "description": "Do a combo with a nosegrind and a 360 pop shuvit",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: nosegrind",
+        "trick: 360 pop shuvit"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Triple kickflip",
+      "description": "Do a triple kickflip on the yellow ramp with the monster hand",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: triple kickflip",
+        "location_object_land: monster_hand_ramp"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "100.000p jump",
+      "description": "Get over 100.000 points in a trick jumping off the circular star platform",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase: 100000",
+        "location_object_jump: floating_platorm"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "10 kickflips",
+      "description": "Do 10 kickflips during a competition run without any pop shuvit",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "trick: kickflip",
+        "trick: pop shuvit",
+        "game_mode: competition"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Insane kickflip",
+      "description": "Do an insane kickflip jumping off the big brown ramp with the white arrows",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: insane kickflip",
+        "location_object_jump: brown_arrow_ramp"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Grind to bowl drop",
+      "description": "Grind on the protruding ledge and drop down into the pool with a blue dot",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_rail_start: railcurve_27",
+        "location_object_land: bowl_blue_dot"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "10.000p fakie trick",
+      "description": "Get 10.000 points in a fakie trick",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase: 10000",
+        "trick: fakie"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "varial trick",
+      "description": "Do any varial trick",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "trick: varial"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "4s rail",
+      "description": "Rail for at least 4 seconds on the yellow wavy ledge",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "rail_time: 4",
+        "location_rail_start: railcurve_25"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "540 pop",
+      "description": "Do a 540 pop shuvit in a jump over the deep ramp (follow the red arrow)",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: 540 pop shuvit",
+        "location_object_jump: leap_of_faith_1",
+        "location_object_land: leap_of_faith_2"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Darkslide",
+      "description": "Perform a darkslide",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: darkslide"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Impossible line",
+      "description": "Make a line with at least an impossible, a grind and a stall",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: impossible",
+        "trick: grind",
+        "trick: stall"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "heelflip in 10m drop",
+      "description": "Do a heelflip in a 10 meter drop",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "y_distance: 20.0",
+        "trick: heelflip"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Black cat ramp",
+      "description": "Jump off the ramp with a black cat with a 8x multiplier",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "location_object_jump: freedom_ramp",
+        "multiplier: 8"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "200.000p, no rails",
+      "description": "Get 200.000 points in a line without using any rails",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 200000"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Late heelflip after kickflip",
+      "description": "Do a late heelflip after a kickflip",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late heelflip",
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Nollie trick",
+      "description": "Do a nollie trick on the big white cat",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: nollie"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Grind platform",
+      "description": "Grind the edge of the star platform",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "location_rail: railcurve_61"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Jump from platform",
+      "description": "Do a late impossible from the star platform and land in the pool with a yellow dot",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: floating_platorm",
+        "location_object_land: bowl_yellow_dot",
+        "trick: late impossible"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "1.000.000p in competition",
+      "description": "Get 1.000.000 points in competition mode",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "score_increase_multiplier: 1000000",
+        "game_mode: competition"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "50.000p combo",
+      "description": "Get over 50.000 points in combo",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase: 50000"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Triple trick",
+      "description": "Do any triple trick close the the two dragons",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: triple"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Pop shuvit on ramp",
+      "description": "Do a pop shuvit on the long wavy ramp",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: pop shuvit",
+        "location_object_land: wavy_ramp"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Heelflip banana",
+      "description": "Do any heelflip close to the three bananas",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: heelflip"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Big red rail",
+      "description": "Grind the big red crescent rail by the sleeping cat",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "location_rail: railcurve_32"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Fake trick spiral",
+      "description": "Do a fakie trick near the spiral column",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: fakie"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Grind bridge",
+      "description": "Grind the edge of the dotted bridge close to the blue ramp",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: grind"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Three late tricks in 15s",
+      "description": "Do 3 late tricks within 15 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: late"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "500.000p line with three 720 tricks",
+      "description": "Make a 500.000p line with at least three 720 tricks",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: 720",
+        "score_increase_multiplier: 500000"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "10 Pop shuvits",
+      "description": "Do 10 pop shuvits in the same line",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "360 double kickflip",
+      "description": "Do a 360 double kickflip on the circular funnel shaped ramp",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 360 double kickflip",
+        "location_object_jump: funnel"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "360 pop shuvit on paw",
+      "description": "Do a 360 pop shuvit on the big paw",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: 360 pop shuvit"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Slide on a walkway",
+      "description": "Do any slide on the big U-shaped walkway",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: slide"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Any 360 flip",
+      "description": "Do any 360 flip",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 360",
+        "trick: flip"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Nollie kickflip",
+      "description": "Do a nollie kickflip on the big leaf",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: nollie kickflip"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "35.000p on deep ramp",
+      "description": "Get at least 35.000 points jumping off the center stripe of the deep ramp",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "score_increase: 35000",
+        "location_object_jump: deep_ramp"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Stall close to skater",
+      "description": "Do any stall close to the headless skater",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "trick: stall"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Touchgrind ramp",
+      "description": "Jump off the ramp with the Touchgrind logo and do any 720 trick",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: 720",
+        "location_object_jump: tg_ramp"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "900 trick",
+      "description": "Do any 900 trick",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: 900"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Pool transfer",
+      "description": "Jump out of the pool with a yellow dot and land in the pool with a blue dot",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: bowl_yellow_dot",
+        "location_object_land: bowl_blue_dot"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Twice as impossible",
+      "description": "Do any two impossibles in the same jump",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: impossible",
+        "trick: late impossible"
+      ]
+    }
+  ],
+  "funpark": [
+    {
+      "id": 1,
+      "title": "Late trick from railslide",
+      "description": "Do a late trick out from a railslide",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: slide",
+        "trick: late"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Double kickflip in sand",
+      "description": "Do a double kickflip and land in the sand",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: double kickflip",
+        "location_object_land: sand"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Grind orange bench",
+      "description": "Grind the orange bench",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_rail_start: bench_orange",
+        "trick: grind"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "10 kickflips in 10s",
+      "description": "Do 10 kickflips in 10 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: kickflip"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Darkslide, grind and a triple",
+      "description": "Do a line with a darkslide, any grind trick and a triple trick",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: darkslide",
+        "trick: grind",
+        "trick: triple"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "540 Pop shuvit to grass",
+      "description": "Do a 540 pop shuvit and land in grass",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 540 pop shuvit",
+        "location_object_land: grass"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Varial kickflip in pool",
+      "description": "Do a varial kickflip and land in the black pool",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: varial kickflip",
+        "location_object_land: organic_pool"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Grind the two benches",
+      "description": "Grind the blue and orange bench in the same line",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "location_rail_start: bench_orange",
+        "location_rail_start: bench_blue"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Fakie trick in snake pool",
+      "description": "Do any fakie trick in the red snake pool",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "trick: fakie",
+        "location_object_land: snake_pool"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Darkslide green rail with x4",
+      "description": "Do a darkslide on the green rail by the pool with a x4 multiplier",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: darkslide",
+        "location_rail_start: pool_green",
+        "multiplier: 4"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Kickflip through pillars",
+      "description": "Do a kickflip through the two concrete pillars underneath the walkway and land on the red rail",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: wooden_playground",
+        "trick: kickflip",
+        "location_rail: red_cross_rail_2"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "40.000p grind",
+      "description": "Get 40.000 points by grinding the long orange rail",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "score_increase: 40000",
+        "location_rail: orange_swirl"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "360 double heelflip from walkway",
+      "description": "Do a 360 double heelflip from the walkway into the black pool",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: 360",
+        "trick: double",
+        "trick: heelflip",
+        "location_object_land: organic_pool"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Powerslide onto rail",
+      "description": "Powerslide onto the red coping rail between the climbing walls and the park area and get at least 20.000p",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: powerslide",
+        "score_increase: 20000",
+        "location_rail: park_red_2"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Late Impossible",
+      "description": "Do a late impossible and land on the big wooden platform",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: late",
+        "trick: impossible",
+        "location_object_land: big_wooden_ramp"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Pop shuvit on red tile",
+      "description": "Do a pop shuvit and land on a red square tile",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: pop shuvit",
+        "location_object_land: tiles_red"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Late trick from walkway",
+      "description": "Do a late trick out from the walkway and land in the snake pool",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: walkway_top",
+        "trick: late",
+        "location_object_land: snake_pool"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "8s rail",
+      "description": "Rail for 8 seconds",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "rail_time: 7.5"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Kiddy slide salad grind",
+      "description": "Do a salad grind down the red kiddy slide",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: salad grind"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Two late tricks",
+      "description": "Do two late tricks in the same jump",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Yellow rail on walkway",
+      "description": "Grind or slide the yellow rail on the elevated walkway",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "location_rail: walkway_railing_1",
+        "location_rail: walkway_railing_2",
+        "location_rail: walkway_railing_3",
+        "location_rail: walkway_railing_4",
+        "location_rail: walkway_railing_5",
+        "location_rail: walkway_railing_6"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "75.000 rail",
+      "description": "Get 75.000 points grinding the long orange rail",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "score_increase: 75000",
+        "location_rail: orange_swirl"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Hardflip on red star",
+      "description": "Do a hardflip and land on the red star in the black pool",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: hardflip",
+        "location_object_land: pool_star"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Heelflip on ramp",
+      "description": "Do a heelflip on the ramp where the blue rail ends",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: heelflip"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Slide the orange rail",
+      "description": "Slide down the orange rail next to the red kiddy slide and get at least 20.000p",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "location_rail: from_tower_orange",
+        "score_increase: 20000",
+        "trick: slide"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Double kickflip to grind",
+      "description": "Do a double kickflip to a grind on the black edge of the climbing area",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: double kickflip",
+        "location_rail: climbing_edge"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Darkslide in the park",
+      "description": "Do a 2 seconds darkslide on any red rail in the park area",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: darkslide",
+        "rail_time: 1.8"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "9m drop",
+      "description": "Do a 720 pop shuvit in a 9 meter drop",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "y_distance: 12",
+        "trick: 720 pop shuvit"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "3 grinds in 10s",
+      "description": "Grind the 3 red rails on the roof within 10 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: grind"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "750.000p line, no flips",
+      "description": "Get 750.000 points in a line without doing any flips",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 750000",
+        "trick: flip"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Impossible on kiddy slide",
+      "description": "Do a late forward impossible and land on the red kiddy slide",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: late",
+        "trick: impossible",
+        "trick: forward",
+        "location_object_land: slide"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Three fakies",
+      "description": "Do 3 fakie tricks in the snake pool within 10 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: fakie",
+        "location_object_land: snake_pool"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Nosegrind over grass",
+      "description": "Do a nosegrind on the orange rail over the grass",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: nosegrind",
+        "location_rail: park_orange_grass"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "3 kickflips on rail",
+      "description": "Do 3 kickflips while railing for at least 5 seconds",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: kickflip",
+        "rail_time: 4"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "15.000p rail through ring",
+      "description": "Get 15.000 points on the yellow rail through the green ring",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "score_increase: 15000",
+        "location_rail: yellow_hole"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Three FS pop shuvits",
+      "description": "Do 3 FS pop shuvits in 10 seconds on the gray roof",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: FS pop shuvit",
+        "location_object_land: roof"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "360 pop shuvit on octagon",
+      "description": "Do a 360 pop shuvit and land on the small yellow octagon ramp",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "location_object_land: small_yellow_octagon",
+        "trick: 360 pop shuvit"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Bluntslide",
+      "description": "Do a bluntslide on the black ramp with red edges",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: bluntslide"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Nollie kickflip grind",
+      "description": "Nollie kickflip out from a grind",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: grind",
+        "trick: nollie kickflip"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "20.000p rail through ring",
+      "description": "Get 20.000 points on the red rail through the green ring",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "score_increase: 20000",
+        "location_rail: red_hole"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Darkstall star ramp",
+      "description": "Darkstall on the black edge of the rainbow star ramp",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: dark stall"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Nosestall to pop shuvit",
+      "description": "Do a nosestall to a pop shuvit",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: nosestall",
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Slide to grind combo",
+      "description": "Do a slide to grind on the yellow rail on the walkway",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: slide",
+        "trick: grind"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "50-50 grind to hardflip",
+      "description": "Do a 50-50 grind to hardflip and land on a black marble tile",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: 50-50 grind",
+        "trick: hardflip",
+        "location_object_land: tiles_black"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Fakie nosegrind",
+      "description": "Do a fakie nosegrind on the red edge of the roof",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "location_rail: bent_building_edge",
+        "trick: fakie nosegrind"
+      ]
+    }
+  ],
+  "office": [
+    {
+      "id": 1,
+      "title": "",
+      "description": "Do a double kickflip on a green binder",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: double kickflip",
+        "location_object_land: binder_green"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "",
+      "description": "Perform a late trick close to the small 2x2x2 rubiks cube",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "",
+      "description": "Do a boardslide on a bent ruler",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: boardslide"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "",
+      "description": "Get at least 10.000p in a nosegrind combo",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: nosegrind",
+        "score_increase: 10000"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "",
+      "description": "Jump out from a bookshelf and do a 360 trick, land on the floor",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: bookshelf",
+        "location_object_land: floor",
+        "trick: 360"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "",
+      "description": "Grind or slide a ruler between the white tables, get at least 5.000p",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase: 5000"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "",
+      "description": "Jump off the black stapler and do a triple kickflip",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: stapler",
+        "trick: triple kickflip"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "",
+      "description": "In the same line, grind both front edges of the laptops",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "location_rail_start: laptop_edge_1",
+        "location_rail_start: laptop_edge_2"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "",
+      "description": "Do a nollie trick on the fallen office chair",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: nollie",
+        "location_object_land: office_chair_fallen"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "",
+      "description": "Crash into the trash bin",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "location_object_land: trashbin"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "",
+      "description": "Grind all of the four brown legs below of the circular tables",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "location_rail_start: brown_table_legs_1",
+        "location_rail_start: brown_table_legs_2",
+        "location_rail_start: brown_table_legs_3",
+        "location_rail_start: brown_table_legs_4"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "",
+      "description": "Do any 540 trick",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "trick: 540"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "",
+      "description": "With 8x multiplier, perform a pop shuvit on a white desk",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: pop shuvit",
+        "multiplier: 8",
+        "location_object_land: desk"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "",
+      "description": "Do a late trick combo while staying on one of the wooden planks",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: late",
+        "location_object_jump: plank",
+        "location_object_land: plank"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "",
+      "description": "Jump off the white tables and land on a gray office chair, get at least 20.000p",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_land: office_chair",
+        "score_increase: 20000"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "",
+      "description": "Grind the edge of a windowsill with a plant",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "location_rail_start: windowsill"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "",
+      "description": "Drop down from the highest point (use the overview map to find a hidden start point)",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "y_distance: 40.0"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "",
+      "description": "Grind the edge of one of the brown pots for 3 seconds",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "rail_time: 2.5"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "",
+      "description": "Perform a darkslide on one of the white beams under the desks (close to the wall)",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: darkslide"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "",
+      "description": "Do a late heelflip after a kickflip",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late heelflip",
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "",
+      "description": "Perform a varial trick from the white book to the yellow book on the floor",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: book_white",
+        "location_object_land: book_yellow",
+        "trick: varial"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "",
+      "description": "Do a 50-50 grind on the ruler between the elevated planks",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_rail: ruler_between_planks",
+        "trick: 50-50"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "",
+      "description": "Crash behind the bookshelf in the corner",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "location_object_land: floor_behind_shelves"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "",
+      "description": "Get over 5.000 points in a trick, landing on the circular base of the black floor lamps",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "score_increase: 5000",
+        "location_object_land: black_floor_lamp"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "",
+      "description": "Ride the empty blue armchair",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "location_object_land: armchair_empty"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "",
+      "description": "Do an impossible trick off the angled cardboard tube",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: impossible",
+        "location_object_jump: cardbord_tube_angled"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "",
+      "description": "Do a tailslide on the edge of the circular tables",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: tailslide"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "",
+      "description": "Jump off the tall bookshelf and land on the blue ruler ramp on the circular table",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: bookshelf",
+        "location_object_land: blue_rulers_circle_ramp"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "",
+      "description": "Grind both of the black circular floor lamp bases in the same line",
+      "info": "",
+      "duration": "",
+      "requirements": []
+    },
+    {
+      "id": 30,
+      "title": "",
+      "description": "Do a 720 pop shuvit jumping off the desk between the yellow pencils",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "cross_line",
+        "trick: 720 pop shuvit"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "",
+      "description": "Perform a powerslide under the big plant by the window",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: powerslide"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "",
+      "description": "Do two 360 tricks within 10 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: 360"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "",
+      "description": "Land any trick on the solved rubiks cube",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "location_object_land: rubiks_solved"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "",
+      "description": "Ride the sofa",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "location_object_land: sofa"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "",
+      "description": "Do a kickflip onto the cardboard tube on the floor",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: kickflip",
+        "location_object_land: cardbord_tube_flat"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "",
+      "description": "Rail for 10 seconds in a line",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "rail_time: 9"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "",
+      "description": "Perform a powerslide close to the orange soda can",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: powerslide"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "",
+      "description": "Do any 360 flip",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 360",
+        "trick: flip"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "",
+      "description": "Land any FS trick on a laptop",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "location_object_land: laptop",
+        "trick: FS"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "",
+      "description": "Jump off any pink book and get at least 30.000p",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "score_increase: 30000",
+        "location_object_jump: book_pink"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "",
+      "description": "Land a late 360 pop shuvit close the the juggling balls",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late 360 pop shuvit"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "",
+      "description": "Do a late heelflip between the black binders with a 4x multiplier",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: late heelflip",
+        "multiplier: 4",
+        "location_object_jump: binder_black",
+        "location_object_land: binder_black"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "",
+      "description": "Do an impossible trick from the red book to the fallen office chair",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: impossible",
+        "location_object_jump: book_red",
+        "location_object_land: office_chair_fallen"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "",
+      "description": "In the same line, grind or slide all of the four bent rulers on the floor",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "location_rail_start: bent_ruler_1",
+        "location_rail_start: bent_ruler_2",
+        "location_rail_start: bent_ruler_3",
+        "location_rail_start: bent_ruler_4"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "",
+      "description": "Get 500.000 points in a single jump with a 1x multiplier",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "score_increase_multiplier: 500000",
+        "multiplier: 1"
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": 1,
+      "title": "3 kickflips in 10s",
+      "description": "Do three kickflips in 10 seconds",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick_within_seconds: kickflip"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Late forward impossible",
+      "description": "Do a late forward impossible",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late forward impossible"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Salad Grind funbox",
+      "description": "Do a salad grind on the funbox",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: salad grind",
+        "location_rail: funbox"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "4s rail curved red rail",
+      "description": "Rail for 4 seconds on the curved red rail next to the pool (Hint: Go slow)",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_rail: curvedredrail",
+        "rail_time: 4"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Nine 360s in 40s",
+      "description": "Do nine 360 tricks in 40 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: 360"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "15 pop shuvits",
+      "description": "Do 15 pop shuvits in the same line",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Stall with 8x multiplier",
+      "description": "Do a stall when having 8x multiplier",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: stall",
+        "multiplier: 8"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Darkslide on the second floor",
+      "description": "Do a darkslide on the yellow rail on the second floor",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: darkslide",
+        "location_rail: railsecondfloor"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Fakie on spine",
+      "description": "Do any fakie on the spine (Hint: Second floor)",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: fakie"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "720 trick",
+      "description": "Do a 720 trick",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 720"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Impossible from stairs ramp",
+      "description": "Do an impossible out from the ramp down the stairs",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: impossible",
+        "cross_line"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Late trick motel sign",
+      "description": "Do a late trick out from the launch ramp on the 2nd floor next to the motel sign",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late",
+        "cross_line"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "150.000p, no rails",
+      "description": "Get 150.000 points in a line without using any rails",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 150000"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Darkstall",
+      "description": "Do a darkstall",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: dark stall"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Rock Stall on the spine",
+      "description": "Do a Rock Stall on the spine",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: rock stall"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "720 from stairs ramp",
+      "description": "Do a 720 trick out from the ramp down the stairs",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 720",
+        "cross_line"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Tailstall to a pop shuvit",
+      "description": "Do a Tailstall to a pop shuvit",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: tailstall",
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "2.000.000p, 5 crashes",
+      "description": "Get 2.000.000 points in a competition run AND crash at least 5 times",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "score_increase_multiplier: 2000000",
+        "crash: 5",
+        "game_mode: competition"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "2 darkslides",
+      "description": "Do two darkslides in the same combo",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: darkslide"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "4s darkslide",
+      "description": "Do a 4 second darkslide",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: darkslide",
+        "rail_time: 4"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "720 on the spine",
+      "description": "Do a 720 trick on the spine",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 720"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "30s rail time, competition",
+      "description": "Rail for 30 seconds in a competition run",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "game_mode: competition",
+        "rail_time: 28"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "50.000p combo",
+      "description": "Get at least 50.000 points in a combo (Tip: Rail and jump without touching ground to do a combo)",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase: 50000"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Triple kickflip",
+      "description": "Do a triple kickflip out from the launch ramp on the 2nd floor next to the motel sign",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: triple kickflip",
+        "cross_line"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Two late tricks",
+      "description": "Do two late tricks in the same jump",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Slide Grind combo",
+      "description": "Do a slide to a grind on the blue rail",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: slide",
+        "trick: grind"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Tailstall to impossible",
+      "description": "Do a tailstall to a forward impossible in the bowl",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: tailstall",
+        "trick: forward impossible"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Three nose tricks in 20s",
+      "description": "Do 3 nose tricks in 20 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: nose"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Triple kickflips, Half pipe",
+      "description": "Do a Triple Kickflip in the half pipe",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: triple kickflip"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Backside trick on the walljump",
+      "description": "Do a Backside trick on the wall jump on the second floor",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: backside"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "540 in the half pipe",
+      "description": "Do a 540 trick in the half pipe",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 540"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "5-0 grind, 30.000p",
+      "description": "Get 30.000 points in a 5-0 grind",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: 5-0 grind",
+        "score_increase: 30000"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Nosestall to a Nollie 360 Flip",
+      "description": "Do a Nosestall to a Nollie 360 Flip",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: nosestall",
+        "trick: nollie 360 flip"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Kickflip to 50-50",
+      "description": "Do a kickflip to a 50-50 grind from the launch ramp to the blue rail",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: kickflip",
+        "trick: 50-50 grind"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Grind Slide combo",
+      "description": "Do a grind to a slide on the rail descending from the half pipe",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: grind",
+        "trick: slide"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Pop shuvit to boardslide",
+      "description": "Do a pop shuvit to a boardslide",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: pop shuvit",
+        "trick: boardslide"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Three salad grinds in 30s",
+      "description": "Do 3 salad grinds in 30 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: salad grind"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Grind combo on descending rail",
+      "description": "Do a 50-50 grind to a 5-0 grind on the green descending rail",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: 50-50 grind",
+        "trick: 5-0 grind",
+        "location_rail: descendingrail"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "1.000.000p",
+      "description": "Get 1.000.000 points in a line",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 1000000"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Laser flip on the spine",
+      "description": "Do a Laser flip on the spine",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: laser flip"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "x8 multiplier without rail",
+      "description": "Reach x8 multiplier from x1 without using any rails",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "multiplier: 8"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "720 line without 360 and 540",
+      "description": "Do three 720 trick in a line without doing any 360 or 540 tricks",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: 360",
+        "trick: 540",
+        "trick: 720"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "250.000p combo x1 multiplier",
+      "description": "Get 250.000p in a combo starting at x1 multiplier",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase_multiplier: 250000",
+        "multiplier: 1"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Impossible, 720 and heelflip line",
+      "description": "Make a line with atleast a 720 trick, impossible and a heelflip",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: impossible",
+        "trick: 720",
+        "trick: heelflip"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Double kickflip darkslide",
+      "description": "Kickflip in and out from a darkslide",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: darkslide",
+        "trick: kickflip"
+      ]
+    }
+  ],
+  "spacedock": [
+    {
+      "id": 1,
+      "title": "Late trick by reactor",
+      "description": "Do a late trick close to the reactor",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pop shuvit",
+      "description": "Do a pop shuvit and land in the pool by the neon lights",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: pop shuvit",
+        "location_object_land: neon_pool"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Grind in tunnel",
+      "description": "Perfrom any grind in the red tunnel",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: grind"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "2 Heelflips in 10s",
+      "description": "Do two heelflips in 10 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: heelflip"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Grind and kickflip combo",
+      "description": "Do a combo with a grind and a kickflip",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: grind",
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Impossible through hole",
+      "description": "Do any impossible trick through the circular hole to the dark corridor",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "cross_line",
+        "trick: impossible"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "30.000p Darkslide",
+      "description": "Get over 30.000 points in a darkslide combo",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: darkslide",
+        "score_increase: 30000"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Grind red and blue pipes",
+      "description": "In the same line, grind the blue and red pipes ouside at the tunnel entrance",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "location_rail_start: reactor_overramp_blue",
+        "location_rail_start: reactor_overramp_red"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Fakie trick in the tunnel",
+      "description": "Do a fakie pop shuvit in the red tunnel and land flat",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "trick: fakie pop shuvit",
+        "location_object_land: tunnel_floor"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Slide on red pipes",
+      "description": "Do any slide trick on one of the high red pipes over the basement",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: slide"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "10.000p Fakie rail",
+      "description": "Get 10.000 points in a fakie rail",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "score_increase: 10000",
+        "trick_start: fakie"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "720 trick",
+      "description": "Do any 720 trick",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "trick: 720"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Grind in corridor",
+      "description": "Do a grind in the dark green corridor",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: grind"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Grinding the red bent rail",
+      "description": "Grind and drop down from the red bent pipe in the reactor room and get at least 25.000p",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase: 25000",
+        "location_rail: reactor_red_drop_1"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Pop shuvit to boardslide",
+      "description": "Do a pop shuvit and land in a boardslide",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: pop shuvit",
+        "trick: boardslide"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Nosestall and grind line",
+      "description": "Make a line with atleast a nosestall and a grind",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: nosestall",
+        "trick: grind"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Kickflip in 5m drop",
+      "description": "Do a triple kickflip in a 5 meter drop",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "y_distance: 11.5",
+        "trick: triple kickflip"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "3s rail",
+      "description": "Stay on a rail for 3 seconds",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "rail_time: 2.5"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "300.000p, no rails",
+      "description": "Get 300.000 points in a line without using any rails",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 300000"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Late heelflip after kickflip",
+      "description": "Do a late heelflip after a kickflip",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late heelflip",
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Grind the ledge",
+      "description": "Grind or slide the ledge next to the big blue light in the basement",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "location_rail: basement_big_u"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Grind both yellow pipes",
+      "description": "Grind both the yellow pipes around the reactor in the same line",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "location_rail: reactor_yellow_outer",
+        "location_rail: reactor_yellow_inner"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Jump from ramp #1 to ramp #4",
+      "description": "Do a jump from ramp #1 to ramp #4 over the hole",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: hole_flap_1",
+        "location_object_land: hole_flap_4"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "1.000.000p in competition",
+      "description": "Get 1.000.000 points in competition mode",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "score_increase_multiplier: 1000000",
+        "game_mode: competition"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "15.000p slide",
+      "description": "Get over 15.000 points in one slide",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: slide",
+        "score_increase: 15000"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Rock stall abobe HAL9000",
+      "description": "Do a rock stall on the ledge above the HAL9000-text",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_rail: hal9000",
+        "trick: rock stall"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Darkstall",
+      "description": "Do a darkstall in the basement",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: dark stall"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Jump from ramp #3 to ramp #2",
+      "description": "Do a jump from ramp #3 to ramp #2 over the hole",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: hole_flap_3",
+        "location_object_land: hole_flap_2"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "2 Yellow pipes",
+      "description": "Grind the two high yellow pipes over the basement",
+      "info": "",
+      "duration": "",
+      "requirements": []
+    },
+    {
+      "id": 30,
+      "title": "Varial kickflip through hole",
+      "description": "Do a varial kickflip through the circular hole to the dark corridor",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "cross_line",
+        "trick: varial",
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Darkslide on yellow pipes",
+      "description": "Do a darkslide on the high yellow pipes over the basement",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: darkslide"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Three fakies in 20s",
+      "description": "Do 3 fakie tricks within 20 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: fakie"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "1.000.000p line with two 540 tricks",
+      "description": "Make a 1.000.000p line with atleast two 540 tricks",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: 540",
+        "score_increase_multiplier: 1000000"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "6 Pop shuvits",
+      "description": "Do 6 pop shuvits in the same line",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "540 bigspin",
+      "description": "Do a 540 bigspin in the pool by the neon lights",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 540 bigspin",
+        "location_object_land: neon_pool"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "15s rail time in competition",
+      "description": "Rail for 15 seconds in a competition run",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "game_mode: competition",
+        "rail_time: 13"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Slide on a red pipe",
+      "description": "Do any slide on a red pipe",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: slide"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Any 360 flip",
+      "description": "Do any 360 flip",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 360",
+        "trick: flip"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Two nose tricks in 20s",
+      "description": "Do 2 nose tricks in 20 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: nose"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "25.000p over hole",
+      "description": "Get at least 25.000 points jumping off ramp #1 over the hole",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "score_increase: 25000",
+        "location_object_jump: hole_flap_1"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "20.000p in a crooked grind",
+      "description": "Get over 20.000 points in a crooked grind",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: crooked grind",
+        "score_increase: 20000"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Nosestall to pop shuvit",
+      "description": "Do a nosestall to a pop shuvit",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: nosestall",
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "540 Line without any 720",
+      "description": "Do three 540 tricks in a line without doing any 720 tricks",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: 720",
+        "trick: 540"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Nollie trick with 4x",
+      "description": "Do a nollie trick close to the reactor with 4x multiplier",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: nollie",
+        "multiplier: 4"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "2.000.000p in competition",
+      "description": "Get 2.000.000 points in competition mode",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "score_increase_multiplier: 2000000",
+        "game_mode: competition"
+      ]
+    }
+  ],
+  "thecarpark": [
+    {
+      "id": 1,
+      "title": "Two 540s",
+      "description": "Do two 540 tricks in 20 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: 540"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Kickflip",
+      "description": "Do a kickflip through the V-shaped concrete pillars",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: kickflip",
+        "cross_line"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "30.000p combo",
+      "description": "Get at least 30.000 points in a combo (Tip: Rail and jump without touching ground to do a combo)",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase: 30000"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Varial kickflip",
+      "description": "Do a varial kickflip down the stairs (Tip: Varial is a combined kickflip and pop shuvit)",
+      "info": "Varial_kickflip",
+      "duration": "jump",
+      "requirements": [
+        "trick: varial",
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Nollie trick",
+      "description": "Do a nollie trick and get at least 7.000 points",
+      "info": "Nollie",
+      "duration": "jump",
+      "requirements": [
+        "trick: nollie",
+        "score_increase: 7000"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Five 360s",
+      "description": "Do five 360 tricks in 30 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: 360"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Two kickflips",
+      "description": "Do two kickflips in the same jump (Tip: At least one late)",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "5-0 grind, 20.000p",
+      "description": "Get 20.000 points in a 5-0 grind",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: 5-0 grind",
+        "score_increase: 20000"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Double heelflip in 2x",
+      "description": "Do a double heelflip when having 2x multiplier",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: double heelflip",
+        "multiplier: 2"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Rail for 20s",
+      "description": "Rail for 20 seconds in a line (Tip: A line is until you lose your multiplier)",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "rail_time: 19"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Two pop shuvits",
+      "description": "Do two pop shuvits in the same jump",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "4 stalls",
+      "description": "Do four stalls in 20 seconds (Tip: A grind or slide without speed)",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: stall"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Late double kickflip",
+      "description": "Do a late double kickflip",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late",
+        "trick: double kickflip"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Switch heelflip",
+      "description": "Do a switch heelflip (Tip: Nollie heelflip when riding backwards)",
+      "info": "Switch_heelflip",
+      "duration": "jump",
+      "requirements": [
+        "trick: switch heelflip"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "50.000p, 10 nollies",
+      "description": "Get 50.000 points in a line and do at least 10 nollie tricks",
+      "info": "Nollie",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 50000",
+        "trick: nollie"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Grind garage ramp",
+      "description": "Grind down the center rail on the garage ramp and get at least 30.000 points",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "location_rail: midrail",
+        "score_increase: 30000"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "360 flip",
+      "description": "Do a '360 flip' (Tip: exact trick match)",
+      "info": "360_flip",
+      "duration": "jump",
+      "requirements": [
+        "trick_match: 360 flip"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "3 Hardflips",
+      "description": "Do 3 hardflips in 20 seconds",
+      "info": "Hardflip",
+      "duration": "line",
+      "requirements": [
+        "trick_within_seconds: hardflip"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "20.000p darkslide",
+      "description": "Do a darkslide and get at least 20.000 points",
+      "info": "Darkslide",
+      "duration": "rail",
+      "requirements": [
+        "trick: darkslide",
+        "score_increase: 20000"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Grind the toll gate",
+      "description": "Do a grind down the toll gate barrier (Tip: Follow the yellow arrows on the upper level)",
+      "info": "Tollgate",
+      "duration": "combo",
+      "requirements": [
+        "trick: grind",
+        "location_rail: tollgate"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "100.000p, no jumps",
+      "description": "Get 100.000 points in a line without doing any jumps",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 100000"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Double heelflip",
+      "description": "Do a double heelflip down the stairs",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: double heelflip"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Nollie 360 pop shuvit",
+      "description": "Do a nollie 360 pop shuvit",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: nollie",
+        "trick: 360",
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "7m drop",
+      "description": "Do a pop shuvit in a 7 meter drop",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "y_distance: 10.7",
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "10 powerslides",
+      "description": "Do 10 powerslides in 20 seconds",
+      "info": "Powerslide",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: powerslide"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Impossible",
+      "description": "Do an impossible through the V-shaped concrete pillars",
+      "info": "Impossible",
+      "duration": "jump",
+      "requirements": [
+        "trick: impossible",
+        "cross_line"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Two late tricks",
+      "description": "Do two late tricks in the same jump",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: late"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "White car inward",
+      "description": "Do an inward trick over the white car",
+      "info": "Inward_heelflip",
+      "duration": "jump",
+      "requirements": [
+        "trick: inward",
+        "cross_line"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Dark snake slide",
+      "description": "Do a darkslide on the snake shaped rail for at least 2 seconds",
+      "info": "Darkslide",
+      "duration": "combo",
+      "requirements": [
+        "trick: darkslide",
+        "location_rail: snakerail",
+        "rail_time: 1.8"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "60.000p combo",
+      "description": "Get at least 60.000 points in a combo (Tip: Rail and jump without touching ground to do a combo)",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase: 60000"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "",
+      "description": "Rail for 40 seconds in a competition run",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "game_mode: competition",
+        "rail_time: 38"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Kickflip to salad",
+      "description": "Do a kickflip to a salad grind on the snake rail",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: kickflip",
+        "trick: salad grind",
+        "location_rail: snakerail"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "5 heelflips",
+      "description": "Do 5 heelflips in 20 seconds without crashing",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick_within_seconds: heelflip"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Slide the toll gate",
+      "description": "Do a pop shuvit to a slide trick down the toll gate barrier",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: pop shuvit",
+        "trick: slide",
+        "location_rail: tollgate"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Fakie to switch",
+      "description": "Do a fakie grind to a switch pop shuvit",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: fakie",
+        "trick: grind",
+        "trick: switch",
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "7s railtime",
+      "description": "Get 7 seconds railtime in one rail",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "rail_time: 6.5"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Steep frontside",
+      "description": "Do a frontside trick on a steep wall",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: frontside",
+        "location_object_jump: steepwall"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "White car impossible",
+      "description": "Do an impossible underflip over the white car",
+      "info": "Impossible_underflip",
+      "duration": "jump",
+      "requirements": [
+        "trick: impossible underflip",
+        "cross_line"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Triple kickflip",
+      "description": "Do a triple kickflip out from a metal beam (Tip: Follow the orange arrows)",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: triple kickflip"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Laser flip",
+      "description": "Do a laser flip",
+      "info": "Laser_flip",
+      "duration": "jump",
+      "requirements": [
+        "trick: laser flip"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "250.000p combo x1 multiplier without rail",
+      "description": "Get 250.000p in a combo starting at x1 multiplier without using a rail",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase_multiplier: 200000",
+        "multiplier: 1"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "520, darkslide and saladgrind with 300.000p and x8 multiplier",
+      "description": "Make a line with atleast a 540 trick, darkslide and a saladgrind while reaching x8 multiplier and gaining 300.000p",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: darkslide",
+        "trick: salad grind",
+        "trick: 540",
+        "multiplier: 8",
+        "score_increase_multiplier: 300000"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Five impossible under 25s",
+      "description": "Do 5 impossible under 25s",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: impossible"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "300.000p without rail",
+      "description": "Gain 300.000p in a line without using any rails",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 300000"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Impossible rail",
+      "description": "Make an impossible in or out from a grind or slide",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: impossible"
+      ]
+    }
+  ],
+  "thedocks": [
+    {
+      "id": 1,
+      "title": "3 kickflips in 10s",
+      "description": "Do three kickflips in 10 seconds",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick_within_seconds: kickflip"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Late forward impossible",
+      "description": "Do a late forward impossible",
+      "info": "Late_Forward_Impossible",
+      "duration": "jump",
+      "requirements": [
+        "trick: late forward impossible"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Radioactive shuvit",
+      "description": "Do a pop shuvit between the steep radioactive walls",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: shuvit"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "3s curved yellow rail",
+      "description": "Rail for 3 seconds on the curved yellow rail (Hint: Find the three gas masks)",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_rail: gasmaskrail",
+        "rail_time: 3"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "20 pop shuvits",
+      "description": "Do 20 pop shuvits in the same line",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: pop shuvit"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "720 trick",
+      "description": "Do a 720 trick",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: 720"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Ten 360s in 10s",
+      "description": "Do ten 360 tricks in 40 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: 360"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "X marks the spot",
+      "description": "Ollie in or out of the vertical pipe without touching it (Hint: X marks the spot)",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_land: xpipe"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Three 540s in 15s",
+      "description": "Do three 540 tricks in 15 seconds",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: 540"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Crashed cargo wagon",
+      "description": "Rail down the crashed cargo wagon",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "location_rail: cargowagonrail1",
+        "location_rail: cargowagonrail2"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "6m drop",
+      "description": "Do a 6 meter drop",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "y_distance: 16"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Grind on crane",
+      "description": "Do a kickflip to a grind on the yellow crane truck",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: kickflip",
+        "location_rail: cranecarrail"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "45.000p stairs rail",
+      "description": "Get over 45.000 points on a rail next to the really long stairs",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "score_increase: 45000"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "200.000p, no rails",
+      "description": "Get 200.000 points in a line without using any rails",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "score_increase_multiplier: 200000"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Rail orange pipe",
+      "description": "Get over 20.000 points when railing on the orange pipe end",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "score_increase: 20000"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Railway track to pipe",
+      "description": "Do a transfer from the railway track into the pipe",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_rail: railwaytrack1",
+        "location_object_land: bentpipe"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Yellow rail on ledge",
+      "description": "Grind the yellow rail on the ledge above the triplet bowls",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_rail: tripletpoolrail"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Radioactive kickflip",
+      "description": "Do a kickflip between the steep radioactive walls",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: kickflip"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Blue circle ramp",
+      "description": "Jump from the blue circle ramp over the truck and grind on the yellow pipe",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: bluecircleramp",
+        "location_rail: truckpipe"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Kickflip from pipe",
+      "description": "Do a double kickflip out from the big short pipe in the red light area",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: double kickflip",
+        "location_object_jump: bigpipe"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Darkslide from truck",
+      "description": "Do a darkslide on the yellow pipe from the truck",
+      "info": "Darkslide",
+      "duration": "combo",
+      "requirements": [
+        "trick: darkslide",
+        "location_rail: truckpipe"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Crazy pandas",
+      "description": "Do a 540 pop shuvit through one of the twin pipes without touching it (Hint: Crazy pandas)",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: 540 pop shuvit",
+        "location_object_land: pandapipe",
+        "cross_line"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Grind combo on railway",
+      "description": "Do a 5-0 grind to 50-50 grind on the railway track",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: 5-0 grind",
+        "trick: 50-50 grind"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "2.500.000p, 10 crashes",
+      "description": "Get 2.500.000 points in a competition run AND crash at least 10 times",
+      "info": "",
+      "duration": "game",
+      "requirements": [
+        "score_increase_multiplier: 2500000",
+        "crash: 10",
+        "game_mode: competition"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Bent lamp post",
+      "description": "Jump down from the highest point and rail on the bent lamp post (Hint: Red arrow)",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_rail: bentlamppost",
+        "cross_line"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "4s railtime",
+      "description": "Get 4 seconds railtime in one rail",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "rail_time: 3.7"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Follow white rabbit",
+      "description": "Follow the white rabbit and land in the pipe",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_jump: highestpoint",
+        "location_object_land: bentpipe"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Rail on red beams",
+      "description": "Rail on both red beams and land in the bowl",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "location_object_land: limeland"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Port-a-potties",
+      "description": "Jump on all three port-a-potties (Hint: White arrows)",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "location_object_land: portaloo1",
+        "location_object_land: portaloo2",
+        "location_object_land: portaloo3"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Double heelflip in 6x",
+      "description": "Do a double heelflip when having 6x multiplier",
+      "info": "",
+      "duration": "jump",
+      "requirements": [
+        "trick: double heelflip",
+        "multiplier: 6"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "3 body varials",
+      "description": "Do 3 body varials in 20 seconds in the triplet bowls",
+      "info": "Body_Varial",
+      "duration": "game",
+      "requirements": [
+        "trick_within_seconds: body varial"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Darkstall",
+      "description": "Do a darkstall",
+      "info": "",
+      "duration": "rail",
+      "requirements": [
+        "trick: dark stall"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Tailstall to impossible",
+      "description": "Do a tailstall to a forward impossible in any of the triplet bowls",
+      "info": "Tailstall_Forward_Impossible",
+      "duration": "combo",
+      "requirements": [
+        "trick: tailstall",
+        "trick: forward impossible"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "3 dark slides",
+      "description": "Do three dark slides in the same combo",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: darkslide"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Darkslide red beams",
+      "description": "Darkslide both red beams and land in the bowl",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: darkslide",
+        "location_object_land: limeland"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Blue circle ramp, darkslide",
+      "description": "Do a kickflip out from the blue circle ramp over the truck and darkslide down the yellow pipe",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: kickflip",
+        "trick: darkslide",
+        "location_object_jump: bluecircleramp",
+        "location_rail: truckpipe"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Salad grind on bent lamp post",
+      "description": "Jump down from the highest point and do a salad grind down the bent lamp post (Hint: Red arrow)",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick_start: salad grind",
+        "location_rail: bentlamppost",
+        "cross_line"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Triple kickflip",
+      "description": "Do a triple kickflip out by the white rabbit and land in the pipe",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: triple kickflip",
+        "location_object_jump: highestpoint",
+        "location_object_land: bentpipe"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "5-0 grind on cargo wagon",
+      "description": "Do a heelflip to a 5-0 grind on the crashed cargo wagon",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: heelflip",
+        "trick: 5-0 grind"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "720 triple kickflip",
+      "description": "Jump from the highest point and do a 720 triple kickflip",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: 720 triple kickflip",
+        "location_object_jump: highestpoint"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "130.000p combo x1 multiplier",
+      "description": "Get 130.000p in a combo starting at x1 multiplier using a rail",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "score_increase_multiplier: 130000",
+        "multiplier: 1"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Five fakies under 15s",
+      "description": "Do five fakies under 15s",
+      "info": "",
+      "duration": "",
+      "requirements": [
+        "trick_within_seconds: fakie"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Double 360 slide",
+      "description": "360 trick in and out from a slide",
+      "info": "",
+      "duration": "combo",
+      "requirements": [
+        "trick: slide",
+        "trick: 360"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "5 slides and 5 grinds with less than 12s rail time",
+      "description": "Do 5 slides and 5 grinds with no more than 12s total rail time",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: slide",
+        "trick: grind",
+        "rail_time: 13"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "impossible, darkslide, 720 and saladgrind line with x8 multiplier and 500.000p",
+      "description": "Make a line with atleast an impossible, darkslide, 720 trick and a saladgrind while gaining x8 multiplier and 500.000p",
+      "info": "",
+      "duration": "line",
+      "requirements": [
+        "trick: impossible",
+        "trick: darkslide",
+        "trick: 720",
+        "trick: salad grind",
+        "score_increase_multiplier: 500000",
+        "multiplier: 8"
+      ]
+    }
+  ]
+}
